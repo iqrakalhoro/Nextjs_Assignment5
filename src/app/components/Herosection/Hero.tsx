@@ -2,7 +2,7 @@ import React from 'react';
 import {Libre_Bodoni} from 'next/font/google';
 import Image from 'next/image';
 
-const LibreBodoni = Libre_Bodoni ({weight: '700'})
+const LibreBodoni = Libre_Bodoni ({weight: '700', subsets: ['latin']})
 
 
 const Hero = () => {

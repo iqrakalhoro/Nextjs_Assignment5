@@ -9,9 +9,8 @@ const config: Config = {
   theme: {
     extend: {
         fontFamily: {
-          rye: ['Rye', 'cursive'], // Fallback to cursive if Rye is unavailable
+          rye: ['Rye', 'cursive'], 
         },
-      
     },
   },
   
